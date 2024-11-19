@@ -1,0 +1,39 @@
+body {
+    height: 100vh; /* Chiều cao bằng 100% chiều cao cửa sổ trình duyệt */
+    margin: 0; /* Xóa khoảng cách mặc định của trình duyệt */
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: flex-start; /* Căn lề trên (hoặc căn giữa theo chiều dọc nếu muốn) */
+    font-family: Arial, sans-serif; /* Cài đặt font chữ */
+}
+
+.survey-form {
+    border: 2px solid #ddd; /* Khung bao quanh */
+    border-radius: 8px; /* Bo góc */
+    padding: 20px;
+    width: 80%; /* Điều chỉnh kích thước của form */
+    max-width: 600px; /* Giới hạn kích thước tối đa */
+    background-color: #f9f9f9; /* Màu nền cho form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho form */
+}
+
+h2{
+    color: teal;
+}
+
+.titleTable{
+    text-align: left;
+}
+
+input[type="text"], input[type="email"] {
+    width: 18em;
+    margin-left: 1em;
+}
+
+#submit {
+    margin-top: 1em;
+}
+
+th, td {
+    line-height: 1.5; /* Giãn cách dòng */
+}
